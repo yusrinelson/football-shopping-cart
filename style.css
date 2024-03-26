@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+/* picwishapikey wx6jfjfb2uj5ex585 */
+:root{
+    --text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Fugaz One", sans-serif;
+    color: #EFF0F6;
+}
+
+/* HEADER */
+.header{
+    background: #D9D9D9;
+    width: 100%;
+
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.header li{
+    padding: 20px 10px 20px 10px;
+}
+
+/* SECTION */
+
+.container{
+    padding-top: 20px;
+    position: relative;
+    /* background: white; */
+    height: 350px;
+}
+.container h1{
+    color: #EFF0F6;
+    position: absolute;
+    left: 13rem;
+    font-size: 60px;
+}
+.container img{
+    position: absolute;
+}
+#madrid.conatiner{
+    background: #EFF0F6 ;
+}
+#madrid h1{
+    color: #A6A6A6 ;
+}
+#madrid{
+    /* background: linear-gradient(0deg,#6CADDF,#EFF0F6 35%); */
+}
+#madrid .shirt1{
+    left: 850px;
+    top: 60px;
+    width: 210px;
+    transform: rotate(-23deg);
+}
+#madrid .shirt3{
+    left: 990px;
+    top: 60px;
+    width: 210px;
+    transform: rotate(23deg);
+}
+#madrid .shirt2{
+    left: 920px;
+    top: 55px;
+    width: 215px;
+    z-index: 1;
+}
+
+#city h1{
+    padding-left: 30px;
+    font-size: 50px;
+}
+#city.container{
+    background: #6CADDF;
+   /* background: linear-gradient(0deg,#001489 ,#6CADDF 35%); */
+}
+#city #city-logo{
+    width: 350px;
+    left: -15px;
+}
+#city .shirt2{
+    left: 840px;
+    top: 60px;
+    width: 240px;
+    transform: rotate(-22deg);
+}
+#city .shirt3{
+    left: 980px;
+    top: 50px;
+    width: 240px;
+    transform: rotate(22deg);
+}
+#city .shirt1{
+    left: 920px;
+    top: 57px;
+    width: 220px;
+    z-index: 1;
+}
+
+
+#chelsea h1{
+    padding-left: 25px;
+    
+}
+#chelsea.container{
+    background: #001489;
+    /* background: linear-gradient(0deg,#0d0b43,#001489 35%); */
+}
+#chelsea img{
+    width: 260px;
+    top: 35px;
+    left: 25px;
+}
+
+
+#barca h1{
+    padding-left: 40px;
+    background: var(--text-gradient);
+    /* color: transparent; */
+    /* -webkit-background-clip: text; */
+    /* background-clip: text; */
+}
+#barca.container{
+    background: #0d0b43;
+    /* background: linear-gradient(0deg,#C70101,#0d0b43 35%); */
+}
+
+#barca #barca-logo{
+    width: 260px;
+    top: 50px;
+    left: 25px;
+}
+#barca .shirt2{
+    right: 210px;
+    top: 60px;
+}
+#barca .shirt3{
+    right: 150px;
+    top: 80px;
+    transform: rotate(24deg);
+}
+#barca .shirt1{
+    right: 300px;
+    top: 80px;
+    transform: rotate(-24deg);
+}
+
+#liverpool h1{
+    padding-left: 30px;
+}
+#liverpool.container{
+    background: #CA0E14;
+}
+#liverpool #liverpool-logo{
+    width: 250px;
+    top: 3px;
+    left: 25px;
+}
+#liverpool .shirt2{
+    left: 820px;
+    top: 55px;
+    width: 260px;
+    transform: rotate(-23deg);
+}
+#liverpool .shirt3{
+    left: 980px;
+    top: 80px;
+    width: 210px;
+    transform: rotate(23deg);
+}
+#liverpool .shirt1{
+    left: 915px;
+    top: 70px;
+    width: 210px;
+    z-index: 1;
+}
+
+#united h1{
+    padding-left: 30px;
+    font-size: 50px;
+}
+#united.container{
+    background: #C70101;
+    /* background: linear-gradient(0deg,#CA0E14,#C70101 35%); */
+}
+#united img{
+    left: 25px;
+}
+
+.shop-now{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.shop-now strong{
+  padding-right: 10px;
+  padding-left: 10px;
+}
